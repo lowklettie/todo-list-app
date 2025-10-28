@@ -1,0 +1,25 @@
+/* CSS reset */
+*{
+    margin: 0px;
+    box-sizing: border-box; /* element size includes padding and border */
+}
+
+body {
+    background-color: rgb(41, 41, 41);
+    color: whitesmoke;
+    font-family: sans-serif;
+}
+
+.main {
+    background-color: rgb(70, 70, 70);
+    height: 100vh;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: stretch;
+}
+
+.main h1 {
+    text-align: end;
+}
